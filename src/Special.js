@@ -9,7 +9,9 @@ function Special() {
         <button className='button sButton'>Online Menu</button>
       </div>
       <div className="special-menu">
-        <Cards/>
+        <Cards title="Greek Salad" img={require("./icons_assets/greek salad.jpg")} price={"12.00"}/>
+        <Cards title="Bruchetta" img={require("./icons_assets/lemon dessert.jpg")} price={"15.36"}/>
+        <Cards title="Lemon Desert" img={require("./icons_assets/lemon dessert.jpg")} price={"20.89"}/>
       </div>
     </main>
   )
