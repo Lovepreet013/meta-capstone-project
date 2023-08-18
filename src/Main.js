@@ -1,10 +1,13 @@
 import React from 'react'
+import Hero from './Hero'
+import Special from './Special'
 
 function Main() {
   return (
-    <div>
-      main
-    </div>
+    <main>
+      <Hero/>
+      <Special/>
+    </main>
   )
 }
 
